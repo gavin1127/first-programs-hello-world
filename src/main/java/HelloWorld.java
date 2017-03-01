@@ -1,3 +1,5 @@
+import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
+
 /**
  * Welcome to your first program! Your goal is to get this program to print out
  * the (exact) words "Hello World". A Hello World program is usually the very
@@ -22,8 +24,7 @@ public class HelloWorld {
      * you've formatted your code correctly, you can cheat and use the IntelliJ
      * shortcut option-command-l, or the menu item Code > Reformat Code.
      */
-    public static void main(String[] args) {
-
-        // todo: place your code to print "Hello World" here
+    public static void main(String[] args){
+        System.out.println("Hello World");
     }
 }
